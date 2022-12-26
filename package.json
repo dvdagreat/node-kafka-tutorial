@@ -1,0 +1,16 @@
+{
+  "name": "node-kafka-tutorial",
+  "version": "1.0.0",
+  "description": "project to try out apache kafka with nodejs and docker compose",
+  "main": "index.js",
+  "scripts": {
+    "start:producer": "node ./producer/index.js",
+    "start:consumer": "node ./consumer/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "kafkajs": "^2.2.3"
+  }
+}
